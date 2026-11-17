@@ -1,0 +1,16 @@
+======================================================================
+INGESTION PIPELINE
+  datasets       : amazon, myntra
+  vector backend : local
+  embedding model: sentence-transformers/all-MiniLM-L6-v2
+  max/ dataset   : ALL
+======================================================================
+--- loading dataset: Amazon India (beauty & grocery) ---
+[amazon] Raw rows: 30000
+[amazon] Clean records: 29339
+--- loading dataset: Myntra (fashion) ---
+[myntra] Raw rows: 308
+[myntra] Clean records: 308
+[ingest] Combined records: 29647
+[ingest] Wrote 29647 products to SQLite (C:\Users\Manas.Choudhary\Downloads\project\data\products.db).
+[ingest] Embedding 29647 products (this can take a few minutes)...

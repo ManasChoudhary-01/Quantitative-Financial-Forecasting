@@ -1,0 +1,38 @@
+# Python 3.10+
+
+# Core data handling and numerical computing
+numpy>=1.26.4
+pandas>=2.0,<4
+scipy>=1.11
+scikit-learn>=1.3
+statsmodels>=0.14
+
+# Time-series foundation models
+# TimesFM with its PyTorch backend
+timesfm[torch]
+# Moirai (Salesforce Uni2TS)
+uni2ts
+# Chronos
+chronos-forecasting
+
+# Model hosting and inference utilities
+huggingface-hub>=0.30.0
+transformers>=4.41,<6
+accelerate>=1.1.0,<2
+
+# Financial data and efficient data storage
+yfinance>=0.2.40
+pyarrow>=14.0
+
+# Visualization and experiment utilities
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20
+tqdm>=4.66
+joblib>=1.3
+
+# Notebooks and configuration
+jupyterlab>=4.0
+ipykernel>=6.25
+PyYAML>=6.0
+python-dotenv>=1.0
